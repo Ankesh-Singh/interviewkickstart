@@ -13,15 +13,15 @@ import Footer from "@/components/footer";
 
 export default function App() {
   return (
-    <div className="text-black text-[16px] leading-[normal] font-times no-underline w-[1480px] scale-100 mx-auto">
+    <div className="text-black text-[16px] leading-[normal] font-times no-underline w-full max-w-[1480px] scale-100 mx-auto">
       <div className="bg-white text-[12px] font-sans">
         <div>
-          <div className="content-center items-center flex flex-col h-min justify-start overflow-clip relative bg-white gap-0">
+          <div className="content-center items-center flex flex-col h-min justify-start relative bg-white gap-0">
             <Navbar />
-            <div className="content-center items-center contents h-min justify-start overflow-clip relative bg-white gap-0">
+            <div className="content-center items-center contents h-min justify-start relative bg-white gap-0">
               <main
                 aria-label="main"
-                className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-0 z-2"
+                className="content-center items-center flex flex-col h-min justify-start relative w-full gap-0 z-2"
               >
                 <Hero />
                 <Maq />

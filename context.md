@@ -135,3 +135,72 @@ When generating pages, features, copy, or components for this site:
 2. **Tone**: High-credibility, rigorous, engineer-to-engineer, outcome-driven, authoritative yet encouraging.
 3. **Primary CTA**: Always lead with the **"Book Free Webinar"** funnel or domain-specific course exploration.
 4. **Visual Language**: Clean, premium tech aesthetic with strong contrast, MAANG logos, verified alumni badges, salary metrics, and clear urgency/slot availability indicators.
+
+
+Recognized by TIME x Statista and GSV 150, Interview Kickstart helps talent and teams turbocharge careers and impact in the AI era.
+With 700+ FAANG instructors who have already helped scale careers of 25000+ software engineers, PMs, data scientists, and tech leaders.
+We combine cutting-edge upskilling with end-to-end career support: mock interviews, AI-optimized resumes, salary negotiation coaching, and job referrals.
+Master AI. Get hired. Turbocharge your career
+
+
+About us
+Founded in 2014, Interview Kickstart is a global leader in career up-leveling, committed to elevating the career trajectories of tech professionals by helping them land their dream jobs with top tech companies.
+
+Essentially, we are a proven method of helping experienced engineers get really intimate with the basic core fundamentals of their profession.
+
+The same core fundamentals that are used to evaluate their technical chops in tough interviews.
+And we train them in much more than technical skills - we help them present themselves in the best possible light on their Resumes, LinkedIn profiles and most importantly in interviews.
+
+Our programs are rigorous, and we expect a certain level of commitment from everyone who enrolls in any of the programs. But we also have a fantastic support team to help you along your journey.
+
+Our Founders
+
+Soham Mehta
+Soham Mehta, Co-founder and Chief Product & Technology Officer at Interview Kickstart, commenced his professional journey with Microsoft before navigating through the dynamic landscape of startups and mid-sized companies.
+
+His versatile experiences at eBay as Senior Staff Software Engineer and at Box as Director of Engineering equipped him with invaluable insights that fueled the inception of Interview Kickstart. Beyond IK, Soham is a hands-on parent and indulges in all things AI. He adopts a holistic approach to life and work having undergone the Vipassana meditation experience an impressive five times.
+
+
+Ryan Valles
+Ryan Valles, the adept CEO and Co-Founder of Interview Kickstart, is a seasoned leader with over two decades of entrepreneurial experience. His journey started in management consulting followed by a number of entrepreneurial stints including founding and growing companies like RYSA, Urbanspace, and Deals & You.
+
+As an EIR with Accel Partners, he incubated multiple startups driving them to profitability. At IK, Ryan leads the growth functions. On the personal front, his life is a seamless blend of work and play. He loves to travel, enjoys pursuing multiple sports, and is a passionate musician - he sings, plays the piano & guitar.
+
+
+
+Why choose Interview Kickstart?
+Interview Kickstart is currently the Gold Standard for Technical Interview Prep - nothing else comes close. We have helped more candidates get their dream jobs than anyone else, including many folks who have consistently failed interviews in the past.
+
+Our focus is on helping you become better engineers and through that process help you get your dream jobs. Everyone else focuses on hacking the interview process. Given that you will likely have multiple rounds (usually 5-7 rounds) with experienced engineers at top companies like Google, Facebook, Amazon and more, trying to hack this process is plain foolish.
+
+Here’s some of what sets us apart
+1. The Hiring Manager Perspective
+We have over 500+instructors, interviewers, technical coaches, and career coaches, all of whom are hiring managers, hiring committee members, and technical leads at Google, Facebook, Amazon and a whole bunch of other FAANG and top Silicon Valley companies.
+
+The hiring manager perspective is hugely important as they are actual practitioners, and they know what it takes to make the ‘cut’. They are trained interviewers and understand the hiring bar. If I was preparing for an interview at a top company, I would want to learn only from folks who have made the cut and who understand the bar because their teaching is experiential and not theoretical.
+
+We are the only platform with such breadth of instructors from FAANG companies. No other platform comes even close.
+
+2. Interview Kickstart’s proprietary unique ‘Power Patterns’
+Our curriculum is the only curriculum based on our unique ‘Power Patterns’. We realize that the hiring bar is now incredibly high and that one cannot convincingly pass this bar by merely solving problems. This is because there are 1000s of potential questions and one must assume that in an interview, you will see an unseen question. Patterns help you solve unseen questions. They are the foundational element of highly successful problem-solving.
+
+Patterns are incredibly difficult to develop and this is why we are the only platform that has the ability to teach you this way.
+
+3. Proven track record - miles ahead of anyone else
+We pioneered the concept of a structured interview prep program and so are the most experienced platform. We have already worked with over 20,000+candidates, the bulk of whom are experienced working engineers. The total value of offers generated in 2021 alone was over $113 Million!
+
+Given this wealth of experience, we have tons of data that we can bring to bear when you negotiate with companies once you are done with the course.
+
+4. Personalized feedback loops
+Interview Kickstart is a System for Success. We realized that no two candidates are the same. Hence, you will have multiple personalized feedback loops every week during our program. Feedback loops from hiring managers and actual interviewers are key to succeeding. This is because in an actual company interview you do not get any feedback and so are unable to learn why you failed. As a result, most folks fly blind in a typical interview process.
+
+Some of the feedback loops include classes, individual technical coaches, resume feedback, LinkedIn profile feedback, regular timed tests, and mock interviews with hiring managers and tech leads and check-ins. These happen each week and it’s these deeply insightful feedback loops that drive your success.
+
+5. The Interview Kickstart Network
+As we are the oldest and most successful platform for interview prep, we have the largest network of candidates across all top companies, across most teams and in cities across North America.
+
+We leverage this network extensively to help you. Some of the ways the network can help include: connecting with companies to get interviews, connecting with alumni to learn about companies, connecting with alumni to get help with your domain, and more.
+
+Having deep connections via our network at top companies also helps us point you to companies that are hiring. Finally, this also helps us equip you with salary and offer data so that you can negotiate to get the best offers from these top companies.
+
+Want to know more about the programs, curriculum, schedule, and pricing options? Sign up for the free webinar by our co-founder by clicking the link below:

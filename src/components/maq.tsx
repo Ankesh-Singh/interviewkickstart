@@ -21,10 +21,10 @@ export default function Maq() {
   const { badge, firstRowLogos, secondRowLogos } = siteData.maq;
 
   return (
-    <section aria-label="client logo" className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-0 pt-0 pr-10 pb-0 pl-10 shrink-0">
+    <section aria-label="client logo" className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-0 px-4 md:px-10 shrink-0">
       <div
         aria-label="container"
-        className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-[60px] max-w-[1400px] pt-20 pr-10 pb-20 pl-10 shrink-0 after:border after:size-full after:pointer-events-none after:absolute after:left-0 after:top-0 after:border-[rgb(236,236,236)] after:content-['']"
+        className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-8 md:gap-[60px] max-w-[1400px] py-12 md:py-20 px-4 md:px-10 shrink-0 border border-[rgb(236,236,236)]"
       >
         <div aria-label="content" className="content-center items-center flex flex-col h-min justify-start relative w-full gap-[60px] shrink-0">
           <div className="contents">

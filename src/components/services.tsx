@@ -21,14 +21,15 @@ export default function Services() {
   return (
     <section
       aria-label="services"
-      className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-0 pt-0 pr-10 pb-0 pl-10 shrink-0"
+      id="services"
+      className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-0 px-4 md:px-10 shrink-0"
     >
       <div
         aria-label="container"
-        className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-[60px] max-w-[1400px] pt-20 pr-10 pb-20 pl-10 shrink-0 after:border after:size-full after:pointer-events-none after:absolute after:inset-0 after:border-[rgb(236,236,236)] after:content-['']"
+        className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-8 md:gap-[60px] max-w-[1400px] py-12 md:py-20 px-4 md:px-10 shrink-0 border border-[rgb(236,236,236)]"
       >
-        <div aria-label="title" className="content-end items-end flex h-min justify-between relative w-full shrink-0">
-          <div aria-label="content" className="content-start items-start flex flex-col grow h-min justify-center relative w-px basis-0 gap-8 max-w-[650px] shrink-0">
+        <div aria-label="title" className="flex flex-col md:flex-row items-start md:items-end justify-between relative w-full gap-6 shrink-0">
+          <div aria-label="content" className="flex flex-col grow justify-center w-full md:w-auto gap-6 md:gap-8 max-w-[650px] shrink-0">
             <div className="contents">
               <div className="relative will-change-transform">
                 <div aria-label="Variant 1" className="content-center items-center flex size-min justify-start relative gap-[14px]">
@@ -41,8 +42,8 @@ export default function Services() {
                 </div>
               </div>
             </div>
-            <div aria-label="Hero Title" className="flex flex-col justify-center relative whitespace-pre-wrap w-full shrink-0">
-              <h2 className="font-medium text-[rgb(31,31,31)] text-[50px] tracking-[-0.6px] leading-[55px] font-inter-tight">
+            <div aria-label="Hero Title" className="flex flex-col justify-center relative w-full shrink-0">
+              <h2 className="font-medium text-[rgb(31,31,31)] text-[32px] sm:text-[40px] md:text-[50px] tracking-[-0.6px] leading-[1.1] font-inter-tight">
                 {title}
               </h2>
             </div>

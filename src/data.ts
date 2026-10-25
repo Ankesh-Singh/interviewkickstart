@@ -1,22 +1,50 @@
 export const siteData = {
   navbar: {
     logo: {
-      url: "https://oma-machina.framer.website/",
-      imgSrc:
-        "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F13625ff889242041c44f6b5fad870060a302ca8a.svg?generation=1792881672022579&alt=media",
-      alt: "Machina Logo",
+      url: "https://www.interviewkickstart.com/",
+      imgSrc: "/assets/Interview%20Kickstart%20Logo.png",
+      alt: "Interview Kickstart Logo",
     },
     navLinks: [
-      { href: "https://oma-machina.framer.website/#services", label: "Services" },
-      { href: "https://oma-machina.framer.website/#our-process", label: "process" },
-      { href: "https://oma-machina.framer.website/#case-study", label: "Case study" },
-      { href: "https://oma-machina.framer.website/#pricing", label: "Pricing" },
-      { href: "https://oma-machina.framer.website/#faq", label: "FAQ" },
+      { href: "https://www.interviewkickstart.com/#courses", label: "Courses" },
+      { href: "https://www.interviewkickstart.com/#process", label: "Power Patterns" },
+      { href: "https://www.interviewkickstart.com/#reviews", label: "Reviews" },
+      { href: "https://www.interviewkickstart.com/#outcomes", label: "Outcomes" },
+      { href: "https://www.interviewkickstart.com/#faq", label: "FAQ" },
     ],
     cta: {
-      label: "Contact us",
-      href: "https://oma-machina.framer.website/contact",
+      label: "Book Free Webinar",
+      href: "https://www.interviewkickstart.com/free-webinar",
     },
+    coursesDropdown: [
+      {
+        category: "Transformative GenAI Domain-specific Track",
+        links: [
+          { label: "Transformative GenAI & Agentic AI + Interview Lab for All", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Transformative GenAI & Agentic AI + Interview Lab for EM", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Transformative GenAI & Agentic AI + Interview Lab for PM", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Transformative GenAI & Agentic AI + Interview Lab for TPM", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Transformative GenAI & Agentic AI + Interview Lab for SWE", href: "https://www.interviewkickstart.com/courses" },
+        ],
+      },
+      {
+        category: "Forward Deployed AI Engineering Program",
+        links: [
+          { label: "Forward Deployed AI Engineering Program", href: "https://www.interviewkickstart.com/courses" },
+        ],
+      },
+      {
+        category: "Interview Preparation Domain-specific Track",
+        links: [
+          { label: "Backend Engineering Interview", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Full Stack Engineering Interview", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Engineering Manager Interview", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Technical Program Manager Interview", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Front-End Engineering Interview", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Product Manager (Tech) Interview", href: "https://www.interviewkickstart.com/courses" },
+        ],
+      },
+    ],
   },
 
   hero: {
@@ -38,88 +66,87 @@ export const siteData = {
             "aspect-square relative w-10 z-1 rounded-full after:border after:size-full after:pointer-events-none after:absolute after:left-0 after:top-0 after:border-white after:content-[''] after:rounded-full",
         },
       ],
-      description: "Led by AI engineers from multi national corporations",
+      description: "Led by 700+ hiring managers & tech leads from FAANG & top tier-1 tech",
     },
-    titleLine1: ["Your", "operations,"],
-    titleLine2: ["reinvented", "by", "AI."],
+    titleLine1: ["Build", "AI", "skills"],
+    titleLine2: ["that", "get", "you", "hired."],
     description:
-      "Machina transforms manual processes into intelligent automation. We build custom AI agents that work 24/7, eliminating bottlenecks and unlocking growth you didn't know was possible.",
+      "Turbocharge your tech career with real-world GenAI, Agentic AI, and MAANG+ interview prep. Master core engineering fundamentals and proprietary Power Patterns to land offers at Google, Meta, Amazon, and Netflix.",
     primaryCta: {
-      label: "Get Your Free AI Audit",
-      href: "https://oma-machina.framer.website/contact",
+      label: "Book Free Live Webinar",
+      href: "https://www.interviewkickstart.com/free-webinar",
     },
     secondaryCta: {
-      label: "See How It Works",
-      href: "https://oma-machina.framer.website/#our-process",
+      label: "Explore Learning Paths",
+      href: "https://www.interviewkickstart.com/#courses",
     },
     productShot: {
       background:
         "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F2cb8fc384e10225abe1364b44b9a0401c8583de4.png?generation=1792881672040165&alt=media",
-      dashboard:
-        "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fc353928e1237ad28907995154274e8a7075bcd30.png?generation=1792881672038117&alt=media",
-      alt: "Machina AI automation dashboard showing workflow overview",
+      dashboard: "/assets/hero.png",
+      alt: "Interview Kickstart Career Accelerator Dashboard & 1:1 FAANG Mock Interview Portal",
     },
   },
 
   maq: {
-    badge: "Trusted by top 100 ai companies",
+    badge: "Alumni hired at MAANG & top global tech companies",
     firstRowLogos: [
       {
-        alt: "Company Logo",
+        alt: "Google",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fb5892f322fcd3d2f2c45cd31563cd02bf58155de.svg?generation=1792881672036907&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "Meta",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F83a304e456f1977fb6e1867a46273dbe56ee2295.svg?generation=1792881672037836&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "Amazon",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F908471393b02c41782c3af69ea6553bb95034835.svg?generation=1792881672052824&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "Apple",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fe5fe691ca13497c5b90bb38afcc789e2072738ea.svg?generation=1792881672039187&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "Microsoft",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fca46af83bbbca22d4094b58bfd41fdf5632e01be.svg?generation=1792881672153821&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "Netflix",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F5c7daa7728ed51efd06ed530ab222730553646b0.svg?generation=1792881672147644&alt=media",
       },
     ],
     secondRowLogos: [
       {
-        alt: "Company Logo",
+        alt: "Uber",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F6f988c21636503a7d02ee5285ee6ac9abb0e3efc.svg?generation=1792881672159363&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "LinkedIn",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fc62bc1479058f5cde2cbbc4014fe5240ee925044.svg?generation=1792881672169802&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "Oracle",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fb9b47a8cb55f5012af8db23970ec4f2aa5b0876a.svg?generation=1792881672173672&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "Cisco",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F83a304e456f1977fb6e1867a46273dbe56ee2295.svg?generation=1792881672037836&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "Adobe",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Ffd3b3e38ae76bbd2458985ac147e6050e51f4284.svg?generation=1792881672166675&alt=media",
       },
       {
-        alt: "Company Logo",
+        alt: "Atlassian",
         src: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F5856b25233bda54fa7b09fb23fd60f4e8605d275.svg?generation=1792881672161255&alt=media",
       },
     ],
   },
 
   services: {
-    badge: "Services we offer",
-    title: "AI automation built for how your industry actually works",
+    badge: "Specialized Career Programs",
+    title: "Rigorous curriculum tailored for high-growth tech domains",
     arrows: {
       prevSrc:
         "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fe136383d20650b031fb192fcaaf6cbdcb4f34072.png?generation=1792881672179208&alt=media",
@@ -128,53 +155,53 @@ export const siteData = {
     },
     items: [
       {
-        id: "healthcare",
-        title: "Healthcare & Insurance",
+        id: "genai-agents",
+        title: "Agentic AI & Multi-Agent Systems",
         description:
-          "Reduce processing time from days to minutes while maintaining HIPAA compliance.",
+          "In partnership with PwC India. Master enterprise multi-agent architectures, autonomous agents, and production deployment at scale.",
         stats: [
-          "HIPAA-compliant infrastructure",
-          "Handle handwritten notes & scanned documents",
-          "Cut claims processing time by 75%",
+          "PwC India co-branded certificate",
+          "Enterprise LLM & Agentic frameworks",
+          "Production-ready portfolio capstones",
         ],
         image:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F2cb8fc384e10225abe1364b44b9a0401c8583de4.png?generation=1792881672040165&alt=media",
       },
       {
-        id: "ecommerce",
-        title: "E-commerce & Retail",
+        id: "swe-prep",
+        title: "Software Engineering (SWE & Full Stack)",
         description:
-          "Handle returns, track shipments, and respond to inquiries 24/7 with personalized answers.",
+          "Master Data Structures, Algorithms, Distributed System Design (HLD/LLD), and unique Power Patterns to solve unseen interview questions.",
         stats: [
-          "24/7 customer support automation",
-          "Real-time inventory sync across channels",
-          "Reduce response time by 90%",
+          "Proprietary Power Patterns problem solving",
+          "Distributed Scalable Systems (HLD & LLD)",
+          "1:1 rubric mocks with FAANG hiring managers",
         ],
         image:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F2cb8fc384e10225abe1364b44b9a0401c8583de4.png?generation=1792881672040165&alt=media",
       },
       {
-        id: "saas",
-        title: "SaaS & Technology",
+        id: "em-tpm",
+        title: "Engineering Management & Tech Leadership",
         description:
-          "Deploy AI agents that help users faster than your human team ever could—at infinite scale.",
+          "Targeted coaching for Engineering Managers, TPMs, and Product Managers to master behavioral, strategy, and systems rounds.",
         stats: [
-          "Resolve 70% of support tickets instantly",
-          "Onboard customers 10x faster",
-          "Scale support without scaling headcount",
+          "Cross-functional behavioral & leadership rounds",
+          "Organizational design & architecture roadmap",
+          "Salary negotiation strategy for L6/L7+ bands",
         ],
         image:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F2cb8fc384e10225abe1364b44b9a0401c8583de4.png?generation=1792881672040165&alt=media",
       },
       {
-        id: "financial",
-        title: "Financial Services",
+        id: "data-ml",
+        title: "Machine Learning & Data Engineering",
         description:
-          "Our AI agents process loan applications, extract data from financial statements in real-time.",
+          "Hands-on ML modeling, pipeline orchestration, MLOps, deep learning, and big data architecture for premier AI/ML engineering roles.",
         stats: [
-          "SOC 2 Type II compliant",
-          "98%+ data extraction accuracy",
-          "Reduce processing time by 85%",
+          "Production GenAI & deep learning models",
+          "Modern streaming & petabyte data platforms",
+          "60% average salary hike upon placement",
         ],
         image:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F2cb8fc384e10225abe1364b44b9a0401c8583de4.png?generation=1792881672040165&alt=media",
@@ -183,143 +210,179 @@ export const siteData = {
   },
 
   process: {
-    badge: "Our Process",
-    title: "From chaos to clarity in 4 simple steps...",
+    badge: "The IK Advantage",
+    title: "A proven, structured system to crack the FAANG bar...",
     description:
-      "We don't believe in black-box solutions. Our proven methodology ensures you understand exactly what we're building, how it works, and the impact it will have—before a single line of code is written.",
+      "We don't believe in interview 'hacks.' Our structured 4-step framework rebuilds your technical fundamentals and sharpens your communication to pass high-bar 5-to-7 round interviews.",
     cta: {
-      label: "Get Your Free AI Audit",
-      href: "https://oma-machina.framer.website/contact",
+      label: "Book Free Live Webinar",
+      href: "https://www.interviewkickstart.com/free-webinar",
     },
     steps: [
       {
         number: "01",
-        title: "Discovery & Audit",
+        title: "Deep Fundamentals & Power Patterns",
         description:
-          "We analyze your operations to identify automation opportunities with the highest ROI. You'll get a detailed roadmap showing exactly what we'll build, projected time savings, and expected impact.",
+          "Move past memorization. Master our proprietary Power Patterns to solve any unseen Data Structure, Algorithm, and System Design problem with calm confidence.",
       },
       {
         number: "02",
-        title: "Custom AI Development",
+        title: "Taught by Active FAANG Hiring Managers",
         description:
-          "We analyze your operations to identify automation opportunities with the highest ROI. You'll get a detailed roadmap showing exactly what we'll build, projected time savings, and expected impact.",
+          "Learn directly from 700+ hiring managers and tech leads who run hiring committees at Google, Meta, and Amazon, gaining insider perspective on how candidates are scored.",
       },
       {
         number: "03",
-        title: "Integration & Testing",
+        title: "Personalized Weekly Feedback Loops",
         description:
-          "We analyze your operations to identify automation opportunities with the highest ROI. You'll get a detailed roadmap showing exactly what we'll build, projected time savings, and expected impact.",
+          "Receive thorough rubric-based feedback across live timed tests, technical coaching sessions, resume teardowns, and realistic 1-on-1 mock interviews.",
       },
       {
         number: "04",
-        title: "Launch & Optimization",
+        title: "Offer Negotiation & Alumni Network",
         description:
-          "We analyze your operations to identify automation opportunities with the highest ROI. You'll get a detailed roadmap showing exactly what we'll build, projected time savings, and expected impact.",
+          "Leverage proprietary compensation data and negotiation coaching from alumni across North America and India to secure multiple high-tier competitive offers.",
       },
     ],
     graphic: {
       bgImage:
         "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fcb45764ff8332f7a42b14e702a2780a0cfc5cd60.png?generation=1792881672193626&alt=media",
-      foregroundImage:
-        "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fa92f033b2f338a41e1986dd361301cdecb636bd6.png?generation=1792881672257824&alt=media",
-      alt: "Process visual graphic",
+      foregroundImage: "/assets/process.png",
+      alt: "Structured IK interview preparation roadmap and feedback system",
     },
   },
 
   caseStudy: {
-    badge: "Industries we serve",
-    title: "Real results for real industries",
+    badge: "Proven Alumni Transformations",
+    title: "Real outcomes for working tech professionals",
     cta: {
-      label: "Get Your Free AI Audit",
-      href: "https://oma-machina.framer.website/contact",
+      label: "Book Free Live Webinar",
+      href: "https://www.interviewkickstart.com/free-webinar",
     },
     quoteIcon:
       "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fc8392cdde82019cff5bd49ca1c73cf8ce5b22fba.svg?generation=1792881672281864&alt=media",
     cases: [
       {
         id: "case-1",
-        title: "60+ billable hours reclaimed on every M&A transaction",
+        title: "Transitioned from legacy backend to Staff SDE at Google with a 110% hike",
         stats: [
           {
-            value: "87%",
-            description: "Reduction in unplanned equipment downtime",
+            value: "₹1.7 Cr",
+            description: "Record top compensation offer achieved by IK alumnus",
           },
           {
-            value: "$240K",
-            description: "In additional billable revenue annually from efficiency gains",
+            value: "110%",
+            description: "Salary hike achieved after mastering distributed system design",
           },
         ],
         testimonial: {
           quote:
-            "The AI agent they built for contract review caught discrepancies our legal team missed. It's like having a senior associate who never sleeps and never bills hours. Our associates now focus on strategy instead of document review—and our clients get faster deal closures.",
-          author: "Jennifer Park",
-          role: "CEO & Co-founder | BEEM",
+            "Before Interview Kickstart, I struggled with ambiguous system design questions. The instructors—actual hiring managers at Google and Meta—broke down complex trade-offs into repeatable frameworks. The mock interviews gave me complete mastery.",
+          author: "Sanjog Jadhav",
+          role: "Software Development Engineer | Google",
           avatar:
             "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F6711f5163aaeaca321cf4fb55fcb4d7de97cbbbd.png?generation=1792881672290898&alt=media",
         },
-        cardImage:
-          "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F190367be4805a734646f131ce70b8250415d11ff.png?generation=1792881672305211&alt=media",
+        cardImage: "/assets/CaseStudy1.png",
         brandLogo:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F3f2b0f05e3d2878501210ccc4ada60c7932e1b2d.svg?generation=1792881672287030&alt=media",
       },
       {
         id: "case-2",
-        title: "$680K saved annually by automating healthcare claims processing",
+        title: "Cracked Staff Machine Learning Engineer offer at Meta in 14 weeks",
         stats: [
           {
-            value: "40%",
-            description: "Reduction in unplanned equipment downtime",
+            value: "₹70 LPA",
+            description: "Average compensation package for placed IK graduates",
           },
           {
-            value: "3,200+",
-            description: "Hours saved annually on manual log and reporting",
+            value: "3 Offers",
+            description: "Secured simultaneous competitive offers from Meta, Amazon, and Uber",
           },
         ],
         testimonial: {
           quote:
-            "We were skeptical about AI handling medical records, but Machina's agents are more consistent than our best analysts. Implementation took 6 weeks. ROI showed up in week 7. Our claims team can now focus on complex cases instead of data entry.",
-          author: "Dr. Marcus Williams",
-          role: "Chief Medical Officer | Overton",
+            "The Agentic AI curriculum and ML system design training are leagues ahead of anything else. Learning directly from active practitioners gave me the confidence to ace 6 intense technical rounds.",
+          author: "Swapna Reddy",
+          role: "Engineering Leader & ML Architect | Meta",
           avatar:
             "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F1de88dec328ba52a03a41b16f9cd8a69cd6d02df.png?generation=1792881672308293&alt=media",
         },
-        cardImage:
-          "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F83152d0d31180c8a0784f5275c4d9e49d0721450.png?generation=1792881672295109&alt=media",
+        cardImage: "/assets/CaseStudy2.png",
         brandLogo:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F29a97a20add68bf71dccfdbe8913c90900ffe9fe.svg?generation=1792881672314264&alt=media",
       },
       {
         id: "case-3",
-        title: "From 8-hour loan reviews to instant approvals: A banking transformation",
+        title: "From mid-sized startup to Principal Data Engineer at Amazon",
         stats: [
           {
-            value: "$80K",
-            description: "Expenditure saved per quarter across the lending team",
+            value: "60%",
+            description: "Average salary hike across 27,000+ placed IK alumni",
           },
           {
-            value: "87%",
-            description: "Reduction in processing time per loan application",
+            value: "5x - 10x",
+            description: "Average career ROI on course enrollment fee",
           },
         ],
         testimonial: {
           quote:
-            "“Automate compliance reviews, document verification, and client onboarding. Our AI agents process loan applications, extract data from financial statements, and flag anomalies in real-time.”",
-          author: "Gerry Chan",
-          role: "VP of Operations | Inertial",
+            "IK’s Power Patterns completely changed how I think about unseen coding problems. Coupled with negotiation coaching, I was able to negotiate a life-changing compensation package with Amazon.",
+          author: "Akshay Lodha",
+          role: "Principal Data Engineer | Amazon",
           avatar:
             "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F0cd41f5b2ea7d53e202b085ad343961c88654d11.png?generation=1792881672335565&alt=media",
         },
-        cardImage:
-          "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F96a0c5ce060cb822e76e42033bd8572b28401651.png?generation=1792881672342551&alt=media",
+        cardImage: "/assets/CaseStudy3.png",
         brandLogo:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fa50964aee3593d9a47926756d53f58fb38204381.svg?generation=1792881672393104&alt=media",
       },
     ],
   },
 
+  content: {
+    bgImage:
+      "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F9da9aa4c1d3187d1571df325e4974e19c44c35e2.png?generation=1792881672404375&alt=media",
+    quoteIcon:
+      "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F9774b851240b85fbada6a8bc44a1466a5fa7a135.svg?generation=1792881672407396&alt=media",
+    quote:
+      "Interview Kickstart is the gold standard for technical interview prep. We have helped more than 27,000+ engineers break past salary ceilings and land dream roles at tier-1 tech companies.",
+    author: "Ryan Valles",
+    role: "CEO & Co-Founder | Interview Kickstart",
+    avatar:
+      "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F1de88dec328ba52a03a41b16f9cd8a69cd6d02df.png?generation=1792881672308293&alt=media",
+  },
+
+  impact: {
+    badge: "10+ Years of Proven Impact",
+    title: "The metrics that define career acceleration",
+    description:
+      "We pioneered structured technical interview prep. Our data-backed methodology delivers measurable career elevation and life-changing compensation gains for tech professionals worldwide.",
+    stats: [
+      {
+        id: "stat-1",
+        value: "27K+",
+        description:
+          "Experienced engineers, PMs, and tech leaders trained and placed in top-tier companies",
+      },
+      {
+        id: "stat-2",
+        value: "$113M+",
+        description:
+          "Total value of job offers generated in a single year for our alumni across North America & India",
+      },
+      {
+        id: "stat-3",
+        value: "700+",
+        description:
+          "Active hiring managers and tech leads from FAANG guiding our live classes and 1:1 mocks",
+      },
+    ],
+  },
+
   testimonials: {
-    badge: "Client's reviews",
-    title: "What our clients say",
+    badge: "Alumni Reviews",
+    title: "What our engineers say about Interview Kickstart",
     quoteIcon:
       "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2Fc1fbc31e77fdd07d23ca8ebffa4c7c6928310d6b.svg?generation=1792881672414870&alt=media",
     arrows: {
@@ -332,152 +395,112 @@ export const siteData = {
       {
         id: "review-1",
         quote:
-          "Machina transformed how our operations team thinks about scale. We're processing 3x the volume with the same headcount, and accuracy has never been higher.",
+          "The Power Patterns curriculum transformed how I tackle unseen problems. I passed 6 interview rounds at Google without hesitation and negotiated a 65% salary hike.",
         author: "Craig Bergson",
-        role: "VP of Operations | Vectorize",
+        role: "Senior Software Engineer | Google",
         avatar:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F0cd41f5b2ea7d53e202b085ad343961c88654d11.png?generation=1792881672335565&alt=media",
       },
       {
         id: "review-2",
         quote:
-          "Machina transformed how our operations team thinks about scale. We're processing 3x the volume with the same headcount, and accuracy has never been higher.",
+          "Having 1:1 mock interviews with active FAANG hiring managers was the biggest differentiator. Their actionable feedback on my system design answers was invaluable.",
         author: "Cooper Lipshutz",
-        role: "VP of Operations | Quantix",
+        role: "Engineering Manager | Meta",
         avatar:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F3ddb8508de2daa8542386736c4e1abcb488ff265.png?generation=1792881672437029&alt=media",
       },
       {
         id: "review-3",
         quote:
-          "Machina transformed how our operations team thinks about scale. We're processing 3x the volume with the same headcount, and accuracy has never been higher.",
+          "Interview Kickstart gives you an unfair advantage. The salary negotiation coaching alone helped me secure $90K more in RSUs than the initial offer.",
         author: "Alena Gouse",
-        role: "VP of Operations | Gridley",
+        role: "Staff Data Engineer | Amazon",
         avatar:
           "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F6711f5163aaeaca321cf4fb55fcb4d7de97cbbbd.png?generation=1792881672290898&alt=media",
       },
     ],
   },
 
-  content: {
-    bgImage:
-      "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F9da9aa4c1d3187d1571df325e4974e19c44c35e2.png?generation=1792881672404375&alt=media",
-    quoteIcon:
-      "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F9774b851240b85fbada6a8bc44a1466a5fa7a135.svg?generation=1792881672407396&alt=media",
-    quote:
-      "Machina transformed how our operations team thinks about scale. We're processing 3x the volume with the same headcount, and accuracy has never been higher.",
-    author: "Gerry Chan",
-    role: "VP of Operations | Inertial",
-    avatar:
-      "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F1de88dec328ba52a03a41b16f9cd8a69cd6d02df.png?generation=1792881672308293&alt=media",
-  },
-
-  impact: {
-    badge: "Impact at Scale",
-    title: "The numbers that matter",
-    description:
-      "We don't believe in black-box solutions. Our proven methodology ensures you understand exactly what we're building, how it works, and the impact it will have—before a single line of code is written.",
-    stats: [
-      {
-        id: "stat-1",
-        value: "150M+",
-        description:
-          "Documents processed by our AI agents across finance, healthcare, legal, and manufacturing",
-      },
-      {
-        id: "stat-2",
-        value: "$12M",
-        description:
-          "In operational costs eliminated for our clients through reduced manual work and improved efficiency",
-      },
-      {
-        id: "stat-3",
-        value: "800+",
-        description:
-          "Hours saved per month across our entire client base, freeing teams to focus on strategic work",
-      },
-    ],
-  },
-
   faq: {
-    badge: "Frequently asked questions",
-    title: "Get the answers you need to move forward",
+    badge: "Frequently Asked Questions",
+    title: "Everything you need to know before joining IK",
     categories: [
       {
         id: "getting-started",
-        label: "Getting Started",
+        label: "Programs & Curriculum",
         items: [
           {
             id: "gs-1",
-            question: "What kind of companies do you work with?",
+            question: "Who is Interview Kickstart designed for?",
             answer:
-              "We work primarily with mid-market to enterprise companies across finance, healthcare, legal, manufacturing, and SaaS — from Series A startups scaling operations to established enterprises modernizing legacy workflows.",
+              "IK is built specifically for working tech professionals—software engineers, tech managers, product managers, and data engineers with 2 to 15+ years of experience—aiming to break past salary ceilings and transition into tier-1 tech and FAANG companies.",
           },
           {
             id: "gs-2",
-            question: "How long does it take to see results?",
+            question: "How long are the programs and what is the time commitment?",
             answer:
-              "Our pilot deployments typically go live within 3–4 weeks. Most clients start measuring operational ROI and substantial time savings within the first 30 days of active deployment.",
+              "Program durations range from 12 weeks (Agentic AI) to 14 weeks (GenAI & SWE tracks) and 3 to 4 months for comprehensive interview preparation. Live classes are held on weekends and weekday evenings, requiring 10–15 hours per week including practice.",
           },
           {
             id: "gs-3",
-            question: "Will AI replace our team members?",
+            question: "What are Interview Kickstart's proprietary Power Patterns?",
             answer:
-              "No. Machina agents handle repetitive, high-volume operational tasks so your team can focus on strategic, judgment-driven work. We build human-in-the-loop systems where your experts retain oversight.",
+              "Power Patterns are our signature problem-solving frameworks. Rather than memorizing thousands of LeetCode problems, you learn the core algorithmic patterns that allow you to systematically solve unseen problems in real interviews.",
           },
           {
             id: "gs-4",
-            question: "What happens after launch?",
+            question: "Who are the instructors and mentors?",
             answer:
-              "We provide end-to-end post-launch support, continuous performance monitoring, telemetry dashboards, and scheduled model updates to ensure system accuracy stays peak over time.",
+              "Our network includes 700+ instructors, technical coaches, and interviewers who are active hiring managers, hiring committee members, and technical leads at Google, Meta, Amazon, Apple, Netflix, and other Silicon Valley leaders.",
           },
           {
             id: "gs-5",
-            question: "How do we get started?",
+            question: "Why should I attend the free webinar first?",
             answer:
-              "Book a free discovery call or AI audit. We evaluate your current workflows, identify high-impact automation opportunities, and design a custom pilot proposal within 48 hours.",
+              "Our co-founders lead the live interactive webinar to break down current tech hiring market dynamics, salary benchmarking data, detailed curriculum roadmaps, and pricing options tailored to your experience level.",
           },
         ],
       },
       {
         id: "tech-security",
-        label: "Technical & Security",
+        label: "Mentorship & Mock Interviews",
         items: [
           {
             id: "ts-1",
-            question: "How do you ensure data privacy and security?",
+            question: "How do 1:1 mock interviews work?",
             answer:
-              "We adhere to enterprise-grade security standards with SOC 2 Type II compliance, zero data retention policies on model inference, and support for isolated VPC or on-premise deployments.",
+              "You practice in realistic, timed 1-on-1 interview simulations with FAANG hiring managers. You receive comprehensive rubric-based scoring covering problem solving, code quality, system design architecture, and behavioral communication.",
           },
           {
             id: "ts-2",
-            question: "Which systems can Machina integrate with?",
+            question: "Do you offer domain-specific tracks?",
             answer:
-              "Our agents natively integrate via secure APIs, webhooks, and database connectors into ERPs (SAP, NetSuite), CRMs (Salesforce, HubSpot), document stores, and legacy internal platforms.",
+              "Yes. We offer over 40 tailored tracks across 19 specialized tech roles including Backend, Frontend, Full Stack, SDET, Machine Learning, Data Engineering, DevOps/SRE, iOS, Android, and Engineering Management.",
           },
           {
             id: "ts-3",
-            question: "Can we deploy on our own cloud infrastructure?",
+            question: "What does post-course support include?",
             answer:
-              "Yes. We support custom deployments directly within your AWS, GCP, or Azure environment, ensuring data never leaves your enterprise security perimeter.",
+              "You receive up to 6 months of continuous support including resume reviews, LinkedIn optimization, timed practice tests, scheduled 1:1 coaching, and offer negotiation strategy sessions.",
           },
         ],
       },
       {
         id: "pricing-roi",
-        label: "Pricing & ROI",
+        label: "Pricing & Career ROI",
         items: [
           {
             id: "pr-1",
-            question: "How is pricing structured?",
+            question: "What is the average return on investment (ROI)?",
             answer:
-              "We offer transparent, fixed-scope tier pricing starting from our Pilot program ($50K) up to Scale and Enterprise solutions, based on workflow complexity and integration depth.",
+              "Our alumni report an average salary hike of ₹24 LPA (60%+ average increase), with many graduates achieving 5x to 10x ROI on their program fee within their first year post-placement.",
           },
           {
             id: "pr-2",
-            question: "What is the typical ROI timeframe?",
+            question: "How does IK assist with salary negotiation?",
             answer:
-              "Most clients recoup their initial investment within 3 to 6 months through direct reductions in manual processing costs and dramatic throughput expansion.",
+              "We leverage offer benchmarks across 27,000+ alumni to equip you with real-time market compensation data. Our negotiation coaches guide you through counter-offers to maximize base salary, bonuses, and equity grants.",
           },
         ],
       },
@@ -486,69 +509,65 @@ export const siteData = {
 
   footer: {
     cta: {
-      badge: "START AUTOMATING",
-      title: "Ready to Automate?",
+      badge: "START YOUR TRANSFORMATION",
+      title: "Ready to crack your dream tech role?",
       description:
-        "Book a 30-minute AI Readiness Audit. We'll analyze your workflows, identify automation opportunities, and show you the projected ROI—before you commit to anything.",
+        "Join our free live market insight & career strategy webinar. Discover how our proven methodology helps working engineers land top-tier tech offers.",
       primaryCta: {
-        label: "Get Your Free AI Audit",
-        href: "https://oma-machina.framer.website/contact",
+        label: "Book Free Live Webinar",
+        href: "https://www.interviewkickstart.com/free-webinar",
       },
     },
     brand: {
-      logoSrc:
-        "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F27b2e344cf51fbef1119a352fc493dabf60628b6.svg?generation=1792881672671117&alt=media",
-      alt: "Machina Logo",
+      logoSrc: "/assets/Interview%20Kickstart%20Logo.png",
+      alt: "Interview Kickstart Logo",
       socialLinks: [
         {
           name: "LinkedIn",
-          href: "https://www.linkedin.com/company/omakasedesigns/",
+          href: "https://www.linkedin.com/company/interview-kickstart/",
           icon: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F7e63685986238876b73044f72b1d93c89a542e31.svg?generation=1792881672679073&alt=media",
         },
         {
           name: "X",
-          href: "https://x.com/omakasedesign",
+          href: "https://x.com/InterviewKick",
           icon: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F61294e7eb949bf25d696c7f4f896bee48c049479.svg?generation=1792881672693230&alt=media",
         },
         {
           name: "Instagram",
-          href: "https://instagram.com/framer",
+          href: "https://www.instagram.com/interviewkickstart/",
           icon: "https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F4aaf01b2e3a6ace91a82852a404b46a19956cde8.svg?generation=1792881672692367&alt=media",
         },
       ],
     },
     sections: [
       {
-        title: "Solutions",
+        title: "Learning Tracks",
         links: [
-          { label: "Financial Services", href: "https://oma-machina.framer.website/#services" },
-          { label: "Healthcare & Insurance", href: "https://oma-machina.framer.website/#services" },
-          { label: "E-commerce & Retail", href: "https://oma-machina.framer.website/#services" },
-          { label: "SaaS & Technology", href: "https://oma-machina.framer.website/#services" },
+          { label: "Agentic AI with PwC India", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Software Engineering (SWE)", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Machine Learning & Data Science", href: "https://www.interviewkickstart.com/courses" },
+          { label: "Engineering Management & TPM", href: "https://www.interviewkickstart.com/courses" },
         ],
       },
       {
-        title: "Services",
+        title: "Features & Support",
         links: [
-          { label: "Intelligent Document Processing", href: "https://oma-machina.framer.website/#services" },
-          { label: "Conversational AI & Support", href: "https://oma-machina.framer.website/#services" },
-          { label: "Workflow Automation", href: "https://oma-machina.framer.website/#services" },
-          { label: "Custom AI Agent Development", href: "https://oma-machina.framer.website/#services" },
+          { label: "Proprietary Power Patterns", href: "https://www.interviewkickstart.com/power-patterns" },
+          { label: "1:1 FAANG Mock Interviews", href: "https://www.interviewkickstart.com/mock-interviews" },
+          { label: "Salary Negotiation Coaching", href: "https://www.interviewkickstart.com/negotiation" },
+          { label: "Alumni Network & Referrals", href: "https://www.interviewkickstart.com/alumni" },
         ],
       },
       {
-        title: "Others",
+        title: "Company",
         links: [
-          { label: "Contact Us", href: "https://oma-machina.framer.website/contact" },
-          { label: "Terms of Service", href: "https://oma-machina.framer.website/legal/terms-of-service" },
-          { label: "Privacy Policy", href: "https://oma-machina.framer.website/legal/privacy-policy" },
-          { label: "404", href: "https://oma-machina.framer.website/" },
+          { label: "About Interview Kickstart", href: "https://www.interviewkickstart.com/about-us" },
+          { label: "Alumni Reviews & Outcomes", href: "https://www.interviewkickstart.com/reviews" },
+          { label: "Free Live Webinar", href: "https://www.interviewkickstart.com/free-webinar" },
+          { label: "Contact Admissions", href: "https://www.interviewkickstart.com/contact-us" },
         ],
       },
     ],
-    copyright: "All Rights reserved ©2025 Machina",
+    copyright: "All Rights reserved ©2025 Interview Kickstart",
   },
 };
-
-
-

@@ -3,6 +3,40 @@
 import React, { useState } from "react";
 import { siteData } from "@/data";
 
+function StepIcon({ index }: { index: number }) {
+  if (index === 0) {
+    // Search / Magnifying Glass
+    return (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+    );
+  }
+  if (index === 1) {
+    // Sliders / Controls / Tuning
+    return (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+      </svg>
+    );
+  }
+  if (index === 2) {
+    // Eye / Integration & Review
+    return (
+      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+      </svg>
+    );
+  }
+  // Flag / Launch
+  return (
+    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+    </svg>
+  );
+}
+
 export default function Process() {
   const { badge, title, description, cta, steps, graphic } = siteData.process;
   const [activeStep, setActiveStep] = useState(0);
@@ -10,41 +44,30 @@ export default function Process() {
   return (
     <section
       aria-label="our process"
-      className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full bg-[rgb(31,31,31)] gap-0 pt-0 pr-10 pb-0 pl-10 shrink-0"
+      id="process"
+      className="flex flex-col items-center justify-start relative w-full bg-[rgb(31,31,31)] px-4 md:px-10 shrink-0"
     >
       <div
         aria-label="container"
-        className="content-center items-center flex flex-col h-min justify-start overflow-clip relative w-full gap-[60px] max-w-[1400px] pt-20 pr-0 pb-20 pl-0 shrink-0 after:border after:size-full after:pointer-events-none after:absolute after:inset-0 after:border-[rgb(51,51,51)] after:content-['']"
+        className="flex flex-col items-center justify-start relative w-full gap-8 md:gap-[60px] max-w-[1400px] py-12 md:py-20 px-4 md:px-10 shrink-0 border border-[rgb(51,51,51)]"
       >
         <div
           aria-label="title"
-          className="content-end items-end flex h-min justify-start relative w-full gap-[60px] pt-0 pr-10 pb-0 pl-10 shrink-0"
+          className="flex flex-col lg:flex-row items-start lg:items-end justify-between relative w-full gap-6 shrink-0"
         >
           <div
             aria-label="content"
-            className="content-start items-start flex flex-col grow h-min justify-center relative w-px basis-0 gap-8 max-w-[650px] shrink-0"
+            className="flex flex-col grow justify-center w-full lg:w-auto gap-6 md:gap-8 max-w-[650px] shrink-0"
           >
-            <div className="contents">
-              <div className="relative will-change-transform">
-                <div
-                  aria-label="Variant 1"
-                  className="content-center items-center flex size-min justify-start relative gap-[14px]"
-                >
-                  <div className="aspect-square relative w-3 bg-[rgb(237,70,9)] shrink-0" />
-                  <div className="flex flex-col justify-start relative whitespace-pre shrink-0">
-                    <p className="font-medium text-left uppercase text-white text-[14px] tracking-[-0.6px] leading-[16.8px] font-geist-mono">
-                      {badge}
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div aria-label="Variant 1" className="flex items-center justify-start gap-[14px]">
+              <div className="w-3 h-3 bg-[rgb(237,70,9)] shrink-0" />
+              <p className="font-mono font-medium text-left uppercase text-white text-[14px] tracking-[-0.6px] leading-[16.8px]">
+                {badge}
+              </p>
             </div>
 
-            <div
-              aria-label="Hero Title"
-              className="flex flex-col justify-center relative w-full shrink-0"
-            >
-              <h2 className="font-medium text-white text-[50px] tracking-[-0.6px] leading-[55px] font-inter-tight">
+            <div aria-label="Hero Title" className="w-full">
+              <h2 className="font-inter-tight font-medium text-white text-[32px] sm:text-[40px] md:text-[50px] tracking-[-0.6px] leading-[1.1]">
                 {title}
               </h2>
             </div>
@@ -52,116 +75,95 @@ export default function Process() {
 
           <div
             aria-label="Description"
-            className="flex flex-col justify-center relative whitespace-pre-wrap will-change-transform w-[490px] shrink-0"
+            className="flex flex-col justify-center w-full lg:w-[490px] shrink-0"
           >
-            <p className="text-left text-[rgb(209,209,209)] text-[18px] tracking-[-0.2px] leading-[25.2px] font-inter">
+            <p className="font-inter text-left text-[rgb(209,209,209)] text-[16px] md:text-[18px] tracking-[-0.2px] leading-[25.2px]">
               {description}
             </p>
           </div>
         </div>
 
-        <div className="h-px relative w-full bg-[rgb(51,51,51)] shrink-0" />
+        <div className="h-px w-full bg-[rgb(51,51,51)] shrink-0" />
 
-        <div className="contents">
-          <div className="relative w-full will-change-transform z-2">
-            <div
-              aria-label="Desktop tab"
-              className="content-start items-start flex h-min justify-center overflow-clip relative w-full gap-[60px] pt-0 pr-10 pb-0 pl-10"
-            >
-              <div
-                aria-label="content"
-                className="content-start items-start flex flex-col grow h-min justify-start overflow-clip relative w-px basis-0 gap-[30px] shrink-0"
-              >
-                {steps.map((step, idx) => {
-                  const isOpen = activeStep === idx;
-                  return (
-                    <React.Fragment key={step.number}>
-                      <div className="relative w-full shrink-0">
+        <div className="flex flex-col lg:flex-row items-stretch justify-center w-full gap-8 lg:gap-[60px]">
+          {/* Steps Column */}
+          <div className="flex flex-col grow justify-start w-full lg:w-1/2 gap-6">
+            {steps.map((step, idx) => {
+              const isOpen = activeStep === idx;
+              return (
+                <div key={step.number} className="flex flex-col w-full gap-4">
+                  <div
+                    onClick={() => setActiveStep(idx)}
+                    className="group flex flex-col w-full gap-4 cursor-pointer transition-all duration-300"
+                  >
+                    <div className="flex items-center justify-between w-full">
+                      <div className="flex items-center gap-4">
                         <div
-                          onClick={() => setActiveStep(idx)}
-                          className="content-start items-start flex flex-col justify-start overflow-clip relative w-full gap-5 cursor-pointer transition-all duration-300"
+                          className={`flex items-center justify-center p-3 rounded-xl border transition-all duration-300 ${
+                            isOpen
+                              ? "bg-[rgb(237,70,9)] text-white border-[rgb(237,70,9)] shadow-lg shadow-[rgba(237,70,9,0.3)] scale-105"
+                              : "bg-[rgb(45,45,45)] text-[rgb(209,209,209)] border-[rgb(58,58,58)] group-hover:border-[rgb(237,70,9)] group-hover:text-white"
+                          }`}
                         >
-                          <div className="content-start items-start flex flex-col h-min justify-start relative w-full gap-5 shrink-0">
-                            <div className="content-center items-center flex h-min justify-between relative w-full shrink-0">
-                              <div className="content-center items-center flex h-min justify-start relative w-[85%] gap-5 shrink-0">
-                                <div className="content-center items-center flex size-min justify-start overflow-hidden relative bg-[rgb(51,51,51)] shadow-[rgba(77,77,77,0.05)_0px_1.13636px_1.13636px_0px,_rgba(77,77,77,0.04)_0px_3.40909px_3.40909px_0px,_rgba(77,77,77,0.03)_0px_6.81818px_4.54545px_0px,_rgba(77,77,77,0.01)_0px_12.5px_4.54545px_0px,_rgba(77,77,77,0)_0px_19.3182px_5.68182px_0px] p-[14px] shrink-0 rounded-[0.568125rem] border border-[rgb(51,51,51)]">
-                                  <div className="aspect-square relative w-6 bg-white shrink-0 rounded-xs" />
-                                </div>
-                                <div className="flex flex-col justify-center relative whitespace-pre shrink-0">
-                                  <p className="text-white text-[24px] tracking-[-0.4px] leading-[33.6px] font-inter">
-                                    {step.title}
-                                  </p>
-                                </div>
-                              </div>
-                              <div className="flex flex-col justify-center relative whitespace-pre shrink-0">
-                                <p className="font-medium text-left uppercase text-[rgb(209,209,209)] text-[18px] tracking-[-0.6px] leading-[21.6px] font-geist-mono">
-                                  {step.number}
-                                </p>
-                              </div>
-                            </div>
+                          <StepIcon index={idx} />
+                        </div>
+                        <p
+                          className={`font-inter text-[20px] md:text-[24px] tracking-[-0.4px] leading-snug transition-colors duration-300 ${
+                            isOpen
+                              ? "text-[rgb(237,70,9)] font-medium"
+                              : "text-white group-hover:text-[rgb(255,140,90)]"
+                          }`}
+                        >
+                          {step.title}
+                        </p>
+                      </div>
+                      <p
+                        className={`font-mono font-medium uppercase text-[16px] md:text-[18px] tracking-[-0.6px] transition-colors duration-300 ${
+                          isOpen ? "text-[rgb(237,70,9)]" : "text-[rgb(160,160,160)]"
+                        }`}
+                      >
+                        {step.number}
+                      </p>
+                    </div>
 
-                            {isOpen && (
-                              <div className="flex flex-col justify-center relative whitespace-pre-wrap w-full max-w-[85%] shrink-0">
-                                <p className="text-[rgb(209,209,209)] text-[16px] tracking-[-0.2px] leading-[19.2px] font-inter">
-                                  {step.description}
-                                </p>
-                              </div>
-                            )}
-                          </div>
-
-                          {isOpen && (
-                            <div className="relative shrink-0 pt-2">
-                              <a
-                                href={cta.href}
-                                aria-label="primary"
-                                className="content-center items-center flex size-min justify-center relative bg-[rgb(237,70,9)] text-white gap-2 pt-[13px] pr-[18px] pb-[13px] pl-[18px] rounded-[6.25rem] hover:opacity-90 transition-opacity"
-                              >
-                                <div className="flex flex-col justify-start relative whitespace-pre shrink-0">
-                                  <p className="font-medium text-left uppercase text-white tracking-[-0.6px] leading-[14.4px] font-geist-mono">
-                                    {cta.label}
-                                  </p>
-                                </div>
-                                <div className="content-center items-center flex h-min justify-end overflow-clip relative w-[18px] gap-[5px] shrink-0">
-                                  <div className="aspect-square relative w-[18px] bg-white shrink-0" />
-                                  <div className="aspect-square relative w-[18px] bg-white shrink-0" />
-                                </div>
-                              </a>
-                            </div>
-                          )}
+                    {isOpen && (
+                      <div className="pl-0 md:pl-[68px] flex flex-col gap-4">
+                        <p className="font-inter text-[rgb(209,209,209)] text-[15px] md:text-[16px] tracking-[-0.2px] leading-relaxed">
+                          {step.description}
+                        </p>
+                        <div>
+                          <a
+                            href={cta.href}
+                            className="inline-flex items-center gap-2 bg-[rgb(237,70,9)] hover:bg-[rgb(220,60,0)] text-white text-sm font-mono uppercase tracking-[-0.6px] py-[11px] px-[18px] rounded-full transition-all duration-200 hover:gap-3 cursor-pointer"
+                          >
+                            <span>{cta.label}</span>
+                            <span>→</span>
+                          </a>
                         </div>
                       </div>
-                      <div className="h-px relative w-full bg-[rgb(51,51,51)] shrink-0" />
-                    </React.Fragment>
-                  );
-                })}
-              </div>
-
-              <div className="self-stretch grow relative w-px basis-0 shrink-0 min-h-[500px]">
-                <div
-                  aria-label="graphic 1"
-                  className="content-center items-center flex flex-col size-full justify-center overflow-hidden relative shadow-[rgba(0,0,0,0.03)_0px_6px_12px_0px,_rgba(0,0,0,0.03)_0px_22px_22px_0px,_rgba(0,0,0,0.02)_0px_51px_30px_0px,_rgba(0,0,0,0)_0px_90px_36px_0px,_rgba(0,0,0,0)_0px_140px_39px_0px] gap-5 pt-20 pr-[60px] pb-20 pl-[60px] rounded-[1.25rem] border-2 border-[rgb(51,51,51)]"
-                >
-                  <div className="absolute inset-0 rounded-[1.25rem]">
-                    <img
-                      src={graphic.bgImage}
-                      alt={graphic.alt}
-                      className="block size-full object-cover overflow-clip aspect-auto rounded-[1.25rem]"
-                    />
+                    )}
                   </div>
-                  <div
-                    aria-label="graphic foreground"
-                    className="relative w-full aspect-[1.27672/1] shrink-0 z-1"
-                  >
-                    <div className="absolute inset-0">
-                      <img
-                        src={graphic.foregroundImage}
-                        alt={graphic.alt}
-                        className="block size-full object-contain overflow-clip aspect-auto"
-                      />
-                    </div>
-                  </div>
+                  <div className="h-px w-full bg-[rgb(51,51,51)] shrink-0" />
                 </div>
-              </div>
+              );
+            })}
+          </div>
+
+          {/* Graphic Column */}
+          <div className="relative w-full lg:w-1/2 min-h-[350px] lg:min-h-[500px] flex flex-col items-center justify-center p-6 md:p-12 rounded-[1.25rem] border-2 border-[rgb(51,51,51)] overflow-hidden shadow-2xl">
+            <div className="absolute inset-0 rounded-[1.25rem]">
+              <img
+                src={graphic.bgImage}
+                alt={graphic.alt}
+                className="block size-full object-cover rounded-[1.25rem]"
+              />
+            </div>
+            <div className="relative z-1 w-full aspect-[1.27672/1]">
+              <img
+                src={graphic.foregroundImage}
+                alt={graphic.alt}
+                className="block size-full object-contain"
+              />
             </div>
           </div>
         </div>
