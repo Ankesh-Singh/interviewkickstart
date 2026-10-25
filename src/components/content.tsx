@@ -1,44 +1,69 @@
-import React from 'react'
+import React from "react";
+import { siteData } from "@/data";
 
-const content = () => {
+export default function Content() {
+  const { content } = siteData;
+
   return (
-    <div>  <div className="contents">
-              <section aria-label="testimonial (single)" className="content-center items-center flex flex-col justify-center relative w-full h-[720px] backdrop-blur-[5px] gap-[40px] max-w-[1400px] pt-[100px] pr-10 pb-[100px] pl-10">
-                <div className="absolute left-0 top-0 right-0 bottom-0">
-                  <img src="https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F9da9aa4c1d3187d1571df325e4974e19c44c35e2.png?generation=1792881672404375&amp;alt=media" className="block size-full object-cover overflow-clip aspect-[auto_2880_/_1400]" />
-                </div>
-                <div aria-label="container" className="content-center items-center flex flex-col h-min justify-center relative w-full backdrop-blur-[7.5px] gap-[32px] max-w-[770px] p-10 shrink-[0] rounded-lg after:border after:size-full after:pointer-events-none after:absolute after:left-0 after:top-0 after:border-[rgb(51,_51,_51)] after:content-[&quot;&quot;] after:rounded-lg">
-                  <div aria-label="Quote Icon" className="content-center items-center flex flex-col size-min justify-center relative will-change-transform gap-[12px] shrink-[0]">
-                    <div aria-label="“" className="relative w-[51px] h-[41px] text-[rgb(26,_26,_26)] fill-[rgb(26,_26,_26)] shrink-[0]">
-                      <div className="size-full fill-[rgb(26,_26,_26)]">
-                        <div className="size-full overflow-hidden fill-[rgb(26,_26,_26)]">
-                          <img src="https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F9774b851240b85fbada6a8bc44a1466a5fa7a135.svg?generation=1792881672407396&amp;alt=media" className="block size-full" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div aria-label="Hero Title" className="flex flex-col justify-center relative whitespace-pre-wrap w-full shrink-[0]">
-                    <h4 className="font-medium text-center text-white text-[36px] tracking-[-0.6px] leading-[46.8px]" style={{"fontFamily":"\"Inter Tight Medium\", \"Inter Tight Medium Placeholder\", sans-serif","fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\""}}><span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>Machina</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>transformed</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>how</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>our</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>operations</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>team</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>thinks</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>about</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>scale.</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>We're</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>processing</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>3x</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>the</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>volume</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>with</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>the</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>same</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>headcount,</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>and</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>accuracy</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>has</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>never</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>been</span> <span className="inline-block text-center will-change-transform blur-[0px]" style={{"fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\"","textDecoration":"none"}}>higher.</span></h4>
-                  </div>
-                  <div aria-label="author card" className="content-center items-center flex h-min justify-center relative w-full will-change-transform gap-[14px] max-w-[300px] shrink-[0]">
-                    <div aria-label="avatar" className="aspect-square relative w-[55px] shrink-[0] rounded-[3.125rem]">
-                      <div className="absolute left-0 top-0 right-0 bottom-0 rounded-[3.125rem]">
-                        <img alt="Testimonial user profile" src="https://storage.googleapis.com/download/storage/v1/b/prd-shared-services.firebasestorage.app/o/h2m-assets%2F1de88dec328ba52a03a41b16f9cd8a69cd6d02df.png?generation=1792881672308293&amp;alt=media" className="block size-full object-cover overflow-clip aspect-[auto_1190_/_1190] rounded-[3.125rem]" />
-                      </div>
-                    </div>
-                    <div aria-label="author" className="content-start items-start flex flex-col grow h-min justify-start relative w-px basis-0 gap-[4px] shrink-[0]">
-                      <div aria-label="Description" className="flex flex-col justify-center relative whitespace-pre-wrap w-full shrink-[0]">
-                        <p className="text-white text-[20px] tracking-[-0.4px] leading-[28px]" style={{"fontFamily":"Inter, \"Inter Placeholder\", sans-serif","fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\""}}>Gerry Chan</p>
-                      </div>
-                      <div aria-label="Description" className="flex flex-col justify-center relative whitespace-pre-wrap w-full shrink-[0]">
-                        <p className="text-[rgb(209,_209,_209)] text-[16px] tracking-[-0.2px] leading-[19.2px]" style={{"fontFamily":"Inter, \"Inter Placeholder\", sans-serif","fontFeatureSettings":"\"blwf\", \"cv03\", \"cv04\", \"cv09\", \"cv11\""}}>VP of Operations | Inertial</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div></div>
-  )
-}
+    <section
+      aria-label="testimonial (single)"
+      className="relative flex flex-col items-center justify-center w-full h-[720px] max-w-[1400px] px-10 py-[100px] gap-10 overflow-hidden"
+    >
+      <div className="absolute inset-0">
+        <img
+          src={content.bgImage}
+          alt="Atmospheric landscape background"
+          loading="lazy"
+          className="block w-full h-full object-cover"
+        />
+      </div>
 
-export default content
+      <div
+        aria-label="container"
+        className="relative z-1 flex flex-col items-center justify-center w-full max-w-[770px] p-10 rounded-lg gap-8 backdrop-blur-[7.5px] border border-[rgb(51,51,51)]"
+      >
+        <div aria-label="Quote Icon" className="flex items-center justify-center">
+          <div aria-label="“" className="w-[51px] h-[41px]">
+            <img
+              src={content.quoteIcon}
+              alt="Quote mark"
+              className="block w-full h-full"
+            />
+          </div>
+        </div>
+
+        <div aria-label="Hero Title" className="w-full text-center">
+          <h4 className="font-medium text-center text-white text-[36px] tracking-[-0.6px] leading-[46.8px] font-inter-tight">
+            {content.quote}
+          </h4>
+        </div>
+
+        <div
+          aria-label="author card"
+          className="flex items-center justify-center gap-[14px] max-w-[300px]"
+        >
+          <div
+            aria-label="avatar"
+            className="w-[55px] h-[55px] shrink-0 rounded-full overflow-hidden"
+          >
+            <img
+              src={content.avatar}
+              alt={content.author}
+              loading="lazy"
+              className="block w-full h-full object-cover rounded-full"
+            />
+          </div>
+
+          <div aria-label="author" className="flex flex-col text-left gap-1">
+            <p className="text-white text-[20px] tracking-[-0.4px] leading-7 font-inter font-normal">
+              {content.author}
+            </p>
+            <p className="text-[rgb(209,209,209)] text-[16px] tracking-[-0.2px] leading-[19.2px] font-inter font-normal">
+              {content.role}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

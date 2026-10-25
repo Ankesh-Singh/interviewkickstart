@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { siteData } from "@/data";
 
 export const metadata: Metadata = {
-  title: "Next.js App",
-  description: "Starter Next.js template",
+  icons: {
+    icon: siteData.navbar.logo.imgSrc,
+  },
 };
 
 export default function RootLayout({
