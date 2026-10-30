@@ -1,12 +1,8 @@
 # Interview Kickstart Landing Page
 
-Landing page for Interview Kickstart built with Next.js, TypeScript, and Tailwind CSS.
-
 ![Interview Kickstart landing page](./public/hero.png)
 
-## Git
 
-Git tracks the project history and publishes it to GitHub.
 
 ## Tech Stack
 - Next.js 16 (App Router)
